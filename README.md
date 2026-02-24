@@ -31,16 +31,24 @@ Published on [clawhub.ai/JonathanJing](https://clawhub.ai/JonathanJing/):
 - **[openclaw-tally](https://clawhub.ai/JonathanJing/openclaw-tally)** — *"Tokens tell you how much you paid. Tasks tell you what you got."* Task-level efficiency analytics. ([GitHub](https://github.com/JonathanJing/openclaw-tally))
 - **[glass2claw](https://clawhub.ai/JonathanJing/glass2claw)** — Vision Router for smart glasses → Discord → Notion. Instruction-only design, 5 rounds of security hardening.
 
-## Church & Community
+## Church & Community — [Grace-Irvine](https://github.com/Grace-Irvine)
 
-- **WorshipFlow** — Worship service planning and automation
-- **catechism-cards** — Catechism study cards
-- **AI-sermon-workflow** — AI-assisted sermon preparation
+Tech lead for Grace Irvine Church's digital infrastructure (volunteer):
 
-## Other
+- **[ProPresenter-Automation-Agent](https://github.com/Grace-Irvine/Grace-Irvine-ProPresenter-Automation-Agent)** — AI agent that automates worship presentation workflows in ProPresenter
+- **[Ministry-Scheduler](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-Scheduler)** — Automated scheduling for ministry teams
+- **[Ministry-data-visualizer](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-data-visualizer)** — Data visualization dashboard for church ministry metrics
+- **[Ministry-Clean](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-Clean)** — Data cleaning pipeline for ministry records
+- **[WorshipFlow](https://github.com/JonathanJing/WorshipFlow)** — Worship service planning and automation
+- **[AI-sermon-workflow](https://github.com/JonathanJing/AI-sermon-workflow)** — AI-assisted sermon preparation workflow
+- **[catechism-cards](https://github.com/JonathanJing/catechism-cards)** — Interactive catechism study cards
 
-- **[Asynchronous-FIFO](https://github.com/JonathanJing/Asynchronous-FIFO)** — Verilog async FIFO design ⭐38
-- **[Stock-Trading-Strategy](https://github.com/JonathanJing/Stock-Trading-Strategy)** — Quantitative trading strategy ⭐7
+## Other Projects
+
+- **[Asynchronous-FIFO](https://github.com/JonathanJing/Asynchronous-FIFO)** — Async FIFO in Verilog ⭐38 — from my EE days, still getting stars
+- **[Stock-Trading-Strategy](https://github.com/JonathanJing/Stock-Trading-Strategy)** — Quantitative trading strategy with backtesting ⭐7
+- **[Web2Ebook](https://github.com/JonathanJing/Web2Ebook)** — Scrape web content and convert to ebook format
+- **[Hermes-handbag](https://github.com/JonathanJing/Hermes-handbag)** — Data analysis of Hermès handbag resale market ⭐1
 
 ---
 
