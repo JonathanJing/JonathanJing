@@ -35,6 +35,7 @@ Published on [clawhub.ai/JonathanJing](https://clawhub.ai/JonathanJing/):
 
 Tech lead for Grace Irvine Church's digital infrastructure (volunteer):
 
+- **[Ministry-UI](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-UI)** ⭐ — The main church platform. Next.js chat UI powered by Google Gemini + MCP (Model Context Protocol) server for ministry data access. GCP Secret Manager for credentials, Cloud Run deployment.
 - **[ProPresenter-Automation-Agent](https://github.com/Grace-Irvine/Grace-Irvine-ProPresenter-Automation-Agent)** — AI agent that automates worship presentation workflows in ProPresenter
 - **[Ministry-Scheduler](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-Scheduler)** — Automated scheduling for ministry teams
 - **[Ministry-data-visualizer](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-data-visualizer)** — Data visualization dashboard for church ministry metrics
