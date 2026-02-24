@@ -33,13 +33,22 @@ Published on [clawhub.ai/JonathanJing](https://clawhub.ai/JonathanJing/):
 
 ## Church & Community — [Grace-Irvine](https://github.com/Grace-Irvine)
 
-Tech lead for Grace Irvine Church's digital infrastructure (volunteer):
+Tech lead for Grace Irvine Church's digital infrastructure (volunteer). Built a full-stack AI platform that lets ministry staff ask questions in natural language and get answers grounded in real church data — all without leaving their familiar Google Sheets workflow.
 
-- **[Ministry-UI](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-UI)** ⭐ — The main church platform. Next.js chat UI powered by Google Gemini + MCP (Model Context Protocol) server for ministry data access. GCP Secret Manager for credentials, Cloud Run deployment.
+```
+Google Sheets → Ministry-Clean (ETL) → GCS → MCP Server → Gemini AI → Ministry UI
+```
+
+**Core Platform:**
+
+- **[Ministry-UI](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-UI)** ⭐ — The user-facing AI assistant. Next.js chat interface powered by Google Gemini with function calling + MCP (Model Context Protocol). Church staff ask *"Who preached last Sunday?"* or *"How many times has Brother Wang served on sound?"* and get instant, accurate answers. Mobile-first with sermon archive, worship history, volunteer directory, and notification center. Deployed on Cloud Run with GCP Secret Manager.
+- **[Ministry-Clean](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-Clean)** ⭐ — The data backbone. Python ETL pipeline that reads raw data from Google Sheets, cleans it (name alias resolution, date normalization, Chinese/English delimiter handling), transforms it into structured domain models (Sermon, Worship, Volunteer), and uploads to GCS. Also includes the FastMCP 2.0 server with 8 tools that Gemini calls at runtime. *Ministry leaders just maintain their spreadsheets — the AI stays accurate automatically.*
+
+**Other Projects:**
+
 - **[ProPresenter-Automation-Agent](https://github.com/Grace-Irvine/Grace-Irvine-ProPresenter-Automation-Agent)** — AI agent that automates worship presentation workflows in ProPresenter
 - **[Ministry-Scheduler](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-Scheduler)** — Automated scheduling for ministry teams
 - **[Ministry-data-visualizer](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-data-visualizer)** — Data visualization dashboard for church ministry metrics
-- **[Ministry-Clean](https://github.com/Grace-Irvine/Grace-Irvine-Ministry-Clean)** — Data cleaning pipeline for ministry records
 - **[WorshipFlow](https://github.com/JonathanJing/WorshipFlow)** — Worship service planning and automation
 - **[AI-sermon-workflow](https://github.com/JonathanJing/AI-sermon-workflow)** — AI-assisted sermon preparation workflow
 - **[catechism-cards](https://github.com/JonathanJing/catechism-cards)** — Interactive catechism study cards
