@@ -12,7 +12,7 @@
 
 ## Current Focus
 
-Reliable, auditable agentic AI — the kind that survives contact with enterprise compliance teams. RAG evaluation, agent orchestration, and the belief that White Box > Black Box.
+Engineering AI that can do more — expanding the inputs agents can perceive and the tools they can operate, while keeping everything auditable. Building skills and infrastructure in the OpenClaw ecosystem under a Scope-First framework: define the boundary, then let intelligence emerge freely within it.
 
 ## Production Work
 
